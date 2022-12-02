@@ -39,7 +39,7 @@ def part_two(player_one, outcome):
 
 
 def main():
-    data = data = get_data("day02/data.txt")
+    data = get_data("day02/data.txt")
 
     part_one_score = 0
     part_two_score = 0
