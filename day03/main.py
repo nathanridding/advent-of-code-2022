@@ -2,6 +2,7 @@
 Day 3: Rucksack Reorganization
 """
 
+
 def get_data(filename: str) -> list:
     with open(filename) as f:
         return [list(line) for line in f.read().split("\n")]
@@ -46,4 +47,4 @@ def main(filename: str) -> tuple:
 
 if __name__ == "__main__":
     print(main("day03/test-data.txt"))  # (157, 70)
-    print(main("day03/data.txt"))       # (7795, 2703)
+    print(main("day03/data.txt"))  # (7795, 2703)
