@@ -17,6 +17,7 @@ def get_marker(data, n):
             if len(set(window)) == len(window):
                 return i + 1
 
+
 def main(filename):
     data = get_data(filename)
     return get_marker(data, 4), get_marker(data, 14)
